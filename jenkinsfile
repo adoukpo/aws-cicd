@@ -6,5 +6,10 @@ pipeline {
             sh 'echo build'
         }
     }
+    stage('ls'){
+        steps{
+            sh 'echo ls'
+        }
+    }
     }
 }
