@@ -21,5 +21,15 @@ pipeline {
             sh 'echo pwd'
         }
     }
+    stage('nproc'){
+        steps{
+            sh 'echo nproc'
+        }
+    }
+    stage('whoami'){
+        stages{
+            sh 'echo whoami'
+        }
+    }
     }
 }
