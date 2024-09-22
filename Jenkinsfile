@@ -34,7 +34,7 @@ pipeline {
         }
     }
     stage('whoami'){
-        stages{
+        steps{
             sh 'echo whoami'
         }
     }
